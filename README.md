@@ -1,7 +1,7 @@
 ## Prerequiresite
 
-- Xcode 12.5
-- Node LTS
+- Xcode
+- Node.js
 
 ### Summary
 
