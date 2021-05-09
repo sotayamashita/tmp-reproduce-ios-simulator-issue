@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "main": "main.js",
+    "scripts": {
+      "start:appium": "appium --log-timestamp --log ./tmp/appium.log"
+    },
+    "dependencies": {
+      "appium": "^1.21.0",
+      "webdriverio": "^7.2.3"
+    }
+  }
