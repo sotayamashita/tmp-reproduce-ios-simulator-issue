@@ -13,7 +13,7 @@ Some parts of the keyboard displayed in the simulator are not visible in black.
 
 (How one can reproduce the issue - this is very important)
 
-1. Create a VM with 3 CPU/GPU
+1. Create a VM with 3 CPU/VCPU
 1. Connect to the VM with SSH
     ```
     ssh -p <SSH port> <USER>@<VM IP>
