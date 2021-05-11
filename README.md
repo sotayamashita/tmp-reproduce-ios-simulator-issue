@@ -7,6 +7,8 @@
 
 (Summarize the bug encountered concisely)
 
+Some parts of the keyboard displayed in the simulator are not visible in black.
+
 ### Steps to reproduce
 
 (How one can reproduce the issue - this is very important)
@@ -52,6 +54,3 @@ Can see the keyboard correctly in the simulator.
 (Paste any relevant logs - please use code blocks (\`\`\`) to format console output,
 logs, and code as it's very hard to read otherwise.)
 
-### Possible fixes
-
-(If you have any idea to solve the problem, please help us.)

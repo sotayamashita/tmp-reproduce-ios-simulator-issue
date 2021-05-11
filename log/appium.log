@@ -1,0 +1,227 @@
+2021-05-11 13:00:34:687 [Appium] Welcome to Appium v1.21.0
+2021-05-11 13:00:34:690 [Appium] Non-default server args:
+2021-05-11 13:00:34:691 [Appium]   logFile: ./tmp/appium.log
+2021-05-11 13:00:34:691 [Appium]   logTimestamp: true
+2021-05-11 13:00:34:739 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2021-05-11 13:00:39:893 [HTTP] --> POST /wd/hub/session
+2021-05-11 13:00:39:894 [HTTP] {"capabilities":{"alwaysMatch":{"platformName":"ios","appium:automationName":"XCUITest","appium:platformVersion":"14.4","appium:deviceName":"iPhone Simulator","appium:udid":"375471BA-0237-4BAE-9FDD-BDD688E0D771","appium:usePrebuiltWDA":true,"appium:derivedDataPath":"/Users/admin/Library/Developer/Xcode/DerivedData/WebDriverAgent-dbwchbegzzpblgdmwabhiwykuyqj","appium:app":"https://github.com/sotayamashita/tmp-reproduce-ios-simulator-issue/blob/master/KickDebug.app.zip?raw=true"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"ios","appium:automationName":"XCUITest","appium:platformVersion":"14.4","appium:deviceName":"iPhone Simulator","appium:udid":"375471BA-0237-4BAE-9FDD-BDD688E0D771","appium:usePrebuiltWDA":true,"appium:derivedDataPath":"/Users/admin/Library/Developer/Xcode/DerivedData/WebDriverAgent-dbwchbegzzpblgdmwabhiwykuyqj","appium:app":"https://github.com/sotayamashita/tmp-reproduce-ios-simulator-issue/blob/master/KickDebug.app.zip?raw=true"}}
+2021-05-11 13:00:39:897 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"ios","appium:automationName":"XCUITest","appium:platformVersion":"14.4","appium:deviceName":"iPhone Simulator","appium:udid":"375471BA-0237-4BAE-9FDD-BDD688E0D771","appium:usePrebuiltWDA":true,"appium:derivedDataPath":"/Users/admin/Library/Developer/Xcode/DerivedData/WebDriverAgent-dbwchbegzzpblgdmwabhiwykuyqj","appium:app":"https://github.com/sotayamashita/tmp-reproduce-ios-simulator-issue/blob/master/KickDebug.app.zip?raw=true"},null,{"alwaysMatch":{"platformName":"ios","appium:automationName":"XCUITest","appium:platformVersion":"14.4","appium:deviceName":"iPhone Simulator","appium:udid":"375471BA-0237-4BAE-9FDD-BDD688E0D771","appium:usePrebuiltWDA":true,"appium:derivedDataPath":"/Users/admin/Library/Developer/Xcode/DerivedData/WebDriverAgent-dbwchbegzzpblgdmwabhiwykuyqj","appium:app":"https://github.com/sotayamashita/tmp-reproduce-ios-simulator-issue/blob/master/KickDebug.app.zip?raw=true"},"firstMatch":[{}]}]
+2021-05-11 13:00:39:899 [BaseDriver] Event 'newSessionRequested' logged at 1620738039898 (06:00:39 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:00:46:315 [Appium] Appium v1.21.0 creating new XCUITestDriver (v3.43.0) session
+2021-05-11 13:00:46:319 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-05-11 13:00:46:319 [BaseDriver] Creating session with W3C capabilities: {
+2021-05-11 13:00:46:320 [BaseDriver]   "alwaysMatch": {
+2021-05-11 13:00:46:320 [BaseDriver]     "platformName": "ios",
+2021-05-11 13:00:46:320 [BaseDriver]     "appium:automationName": "XCUITest",
+2021-05-11 13:00:46:321 [BaseDriver]     "appium:platformVersion": "14.4",
+2021-05-11 13:00:46:321 [BaseDriver]     "appium:deviceName": "iPhone Simulator",
+2021-05-11 13:00:46:322 [BaseDriver]     "appium:udid": "375471BA-0237-4BAE-9FDD-BDD688E0D771",
+2021-05-11 13:00:46:322 [BaseDriver]     "appium:usePrebuiltWDA": true,
+2021-05-11 13:00:46:322 [BaseDriver]     "appium:derivedDataPath": "/Users/admin/Library/Developer/Xcode/DerivedData/WebDriverAgent-dbwchbegzzpblgdmwabhiwykuyqj",
+2021-05-11 13:00:46:323 [BaseDriver]     "appium:app": "https://github.com/sotayamashita/tmp-reproduce-ios-simulator-issue/blob/master/KickDebug.app.zip?raw=true"
+2021-05-11 13:00:46:323 [BaseDriver]   },
+2021-05-11 13:00:46:323 [BaseDriver]   "firstMatch": [
+2021-05-11 13:00:46:324 [BaseDriver]     {}
+2021-05-11 13:00:46:324 [BaseDriver]   ]
+2021-05-11 13:00:46:324 [BaseDriver] }
+2021-05-11 13:00:46:337 [BaseDriver] Session created with session id: f1852752-396c-4c1a-a1ea-a177611eb1c1
+2021-05-11 13:00:46:404 [XCUITest] Current user: 'admin'
+2021-05-11 13:00:46:407 [XCUITest] Changing deviceName from 'iPhone Simulator' to 'iPhone X'
+2021-05-11 13:00:46:427 [XCUITest] Available devices: 
+2021-05-11 13:00:46:430 [XCUITest] No real device with udid '375471BA-0237-4BAE-9FDD-BDD688E0D771'. Looking for simulator
+2021-05-11 13:00:47:075 [iOSSim] Constructing iOS simulator for Xcode version 12.4 with udid '375471BA-0237-4BAE-9FDD-BDD688E0D771'
+2021-05-11 13:00:47:078 [XCUITest] Determining device to run tests on: udid: '375471BA-0237-4BAE-9FDD-BDD688E0D771', real device: false
+2021-05-11 13:00:47:079 [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1620738047079 (06:00:47 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:00:47:083 [BaseDriver] Using downloadable app 'https://github.com/sotayamashita/tmp-reproduce-ios-simulator-issue/blob/master/KickDebug.app.zip?raw=true'
+2021-05-11 13:00:47:647 [BaseDriver] Last-Modified: undefined
+2021-05-11 13:00:47:647 [BaseDriver] Cache-Control: max-age=300
+2021-05-11 13:00:47:648 [BaseDriver] A fresh copy of the application is going to be downloaded from https://github.com/sotayamashita/tmp-reproduce-ios-simulator-issue/blob/master/KickDebug.app.zip?raw=true
+2021-05-11 13:00:47:649 [BaseDriver] Content-Type: application/zip
+2021-05-11 13:00:49:664 [Support] https://github.com/sotayamashita/tmp-reproduce-ios-simulator-issue/blob/master/KickDebug.app.zip?raw=true (34.40 MB) has been downloaded to '/var/folders/hb/6bmy20jj5tz9ws4l4c81_nxc0000gn/T/2021411-7344-1k2t4ek.64k2/KickDebug.app.zip' in 2.011s
+2021-05-11 13:00:49:665 [Support] Approximate download speed: 17.10 MB/s
+2021-05-11 13:00:49:907 [BaseDriver] Unzipping '/var/folders/hb/6bmy20jj5tz9ws4l4c81_nxc0000gn/T/2021411-7344-1k2t4ek.64k2/KickDebug.app.zip'
+2021-05-11 13:00:56:581 [BaseDriver] Extracted 935 items from '/var/folders/hb/6bmy20jj5tz9ws4l4c81_nxc0000gn/T/2021411-7344-1k2t4ek.64k2/KickDebug.app.zip' in 6527ms
+2021-05-11 13:00:56:593 [BaseDriver] Matched 1 item in the extracted archive. Assuming 'KickDebug.app' is the correct bundle
+2021-05-11 13:00:56:606 [BaseDriver] Unzipped local app to '/var/folders/hb/6bmy20jj5tz9ws4l4c81_nxc0000gn/T/2021411-7344-1tck22y.dwc2/KickDebug.app'
+2021-05-11 13:00:56:607 [BaseDriver] Event 'appConfigured' logged at 1620738056607 (06:00:56 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:00:56:609 [XCUITest] Checking whether app '/var/folders/hb/6bmy20jj5tz9ws4l4c81_nxc0000gn/T/2021411-7344-1tck22y.dwc2/KickDebug.app' is actually present on file system
+2021-05-11 13:00:56:611 [XCUITest] App is present
+2021-05-11 13:00:56:616 [iOS] Getting bundle ID from app '/var/folders/hb/6bmy20jj5tz9ws4l4c81_nxc0000gn/T/2021411-7344-1tck22y.dwc2/KickDebug.app': 'com.kickstarter.kickstarter.debug'
+2021-05-11 13:00:56:617 [BaseDriver] Event 'resetStarted' logged at 1620738056616 (06:00:56 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:00:57:022 [XCUITest] Not scrubbing third party app in anticipation of uninstall
+2021-05-11 13:00:57:023 [BaseDriver] Event 'resetComplete' logged at 1620738057022 (06:00:57 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:00:57:025 [WebDriverAgent] Using WDA path: '/Users/admin/Desktop/tmp-reproduce-ios-simulator-issue/node_modules/appium/node_modules/appium-webdriveragent'
+2021-05-11 13:00:57:025 [WebDriverAgent] Using WDA agent: '/Users/admin/Desktop/tmp-reproduce-ios-simulator-issue/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+2021-05-11 13:00:57:280 [IOSSimulatorLog] Starting log capture for iOS Simulator with udid '375471BA-0237-4BAE-9FDD-BDD688E0D771' using simctl
+2021-05-11 13:00:57:744 [BaseDriver] Event 'logCaptureStarted' logged at 1620738057743 (06:00:57 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:00:57:745 [XCUITest] Setting up simulator
+2021-05-11 13:00:57:746 [iOS] No reason to set locale
+2021-05-11 13:00:57:747 [iOS] No iOS / app preferences to set
+2021-05-11 13:00:57:748 [iOS] Setting did not need to be updated
+2021-05-11 13:00:57:752 [iOSSim] Setting preferences of 375471BA-0237-4BAE-9FDD-BDD688E0D771 Simulator to {"ConnectHardwareKeyboard":false}
+2021-05-11 13:00:57:753 [iOSSim] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+2021-05-11 13:00:57:926 [iOSSim] Updated 375471BA-0237-4BAE-9FDD-BDD688E0D771 Simulator preferences at '/Users/admin/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"375471BA-0237-4BAE-9FDD-BDD688E0D771":{"ConnectHardwareKeyboard":false,"SimulatorExternalDisplay":2114,"SimulatorWindowRotationAngle":0,"SimulatorWindowOrientation":"Portrait","SimulatorWindowGeometry":{"B5A97695-AE05-4DC7-B248-5669E04F1F66":{"WindowCenter":"{1280, 844}","WindowScale":1}},"ChromeTint":""}}}
+2021-05-11 13:00:58:290 [iOSSim] Got Simulator UI client PID: 5807
+2021-05-11 13:00:58:291 [iOSSim] Both Simulator with UDID '375471BA-0237-4BAE-9FDD-BDD688E0D771' and the UI client are currently running
+2021-05-11 13:00:58:293 [BaseDriver] Event 'simStarted' logged at 1620738058292 (06:00:58 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:00:58:294 [XCUITest] Verifying application platform
+2021-05-11 13:00:58:300 [XCUITest] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+2021-05-11 13:00:58:580 [XCUITest] Reset requested. Removing app with id 'com.kickstarter.kickstarter.debug' from the device
+2021-05-11 13:00:58:892 [XCUITest] Installing '/var/folders/hb/6bmy20jj5tz9ws4l4c81_nxc0000gn/T/2021411-7344-1tck22y.dwc2/KickDebug.app' on Simulator with UUID '375471BA-0237-4BAE-9FDD-BDD688E0D771'...
+2021-05-11 13:01:04:256 [XCUITest] The app has been installed successfully.
+2021-05-11 13:01:04:257 [BaseDriver] Event 'appInstalled' logged at 1620738064256 (06:01:04 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:01:04:483 [WebDriverAgent] No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+2021-05-11 13:01:04:484 [DevCon Factory] Requesting connection for device 375471BA-0237-4BAE-9FDD-BDD688E0D771 on local port 8100
+2021-05-11 13:01:04:485 [DevCon Factory] Cached connections count: 0
+2021-05-11 13:01:04:485 [DevCon Factory] Successfully requested the connection for 375471BA-0237-4BAE-9FDD-BDD688E0D771:8100
+2021-05-11 13:01:04:487 [XCUITest] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+2021-05-11 13:01:04:491 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-05-11 13:01:04:492 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+2021-05-11 13:01:04:517 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"14.2","version":"14.4"},"ios":{"simulatorVersion":"14.4","ip":"192.168.122.2"},"ready":true,"build":{"upgradedAt":"1620736086940","time":"May 11 2021 05:58:16","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2021-05-11 13:01:04:519 [WebDriverAgent] Upgrade timestamp of the currently bundled WDA: 1620736086940
+2021-05-11 13:01:04:519 [WebDriverAgent] Upgrade timestamp of the WDA on the device: 1620736086940
+2021-05-11 13:01:04:520 [WebDriverAgent] Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+2021-05-11 13:01:04:520 [XCUITest] Trying to start WebDriverAgent 2 times with 10000ms interval
+2021-05-11 13:01:04:520 [XCUITest] These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+2021-05-11 13:01:04:521 [BaseDriver] Event 'wdaStartAttempted' logged at 1620738064521 (06:01:04 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:01:04:522 [WebDriverAgent] Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+2021-05-11 13:01:04:523 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-05-11 13:01:04:524 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+2021-05-11 13:01:04:530 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"14.2","version":"14.4"},"ios":{"simulatorVersion":"14.4","ip":"192.168.122.2"},"ready":true,"build":{"upgradedAt":"1620736086940","time":"May 11 2021 05:58:16","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2021-05-11 13:01:04:531 [BaseDriver] Event 'wdaSessionAttempted' logged at 1620738064531 (06:01:04 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:01:04:531 [XCUITest] Sending createSession command to WDA
+2021-05-11 13:01:04:532 [WD Proxy] Matched '/session' to command name 'createSession'
+2021-05-11 13:01:04:533 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.kickstarter.kickstarter.debug","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true}],"alwaysMatch":{}}}
+2021-05-11 13:01:09:664 [WD Proxy] Got response with status 200: {"value":{"sessionId":"C548F222-2D69-4C56-A455-6CE1E0E71863","capabilities":{"device":"iphone","browserName":"KickDebug","sdkVersion":"14.4","CFBundleIdentifier":"com.kickstarter.kickstarter.debug"}},"sessionId":"C548F222-2D69-4C56-A455-6CE1E0E71863"}
+2021-05-11 13:01:09:665 [WD Proxy] Determined the downstream protocol as 'W3C'
+2021-05-11 13:01:09:665 [BaseDriver] Event 'wdaSessionStarted' logged at 1620738069665 (06:01:09 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:01:09:666 [BaseDriver] Event 'wdaStarted' logged at 1620738069665 (06:01:09 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:01:09:666 [XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+2021-05-11 13:01:09:666 [BaseDriver] Event 'orientationSet' logged at 1620738069666 (06:01:09 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:01:09:667 [BaseDriver] The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+2021-05-11 13:01:09:667 [BaseDriver] The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+2021-05-11 13:01:09:667 [Appium] New XCUITestDriver session created successfully, session f1852752-396c-4c1a-a1ea-a177611eb1c1 added to master session list
+2021-05-11 13:01:09:669 [BaseDriver] Event 'newSessionStarted' logged at 1620738069668 (06:01:09 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:01:09:672 [W3C (f1852752)] Cached the protocol value 'W3C' for the new session f1852752-396c-4c1a-a1ea-a177611eb1c1
+2021-05-11 13:01:09:674 [W3C (f1852752)] Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","automationName":"XCUITest","platformVersion":"14.4","deviceName":"iPhone Simulator","udid":"375471BA-0237-4BAE-9FDD-BDD688E0D771","usePrebuiltWDA":true,"derivedDataPath":"/Users/admin/Library/Developer/Xcode/DerivedData/WebDriverAgent-dbwchbegzzpblgdmwabhiwykuyqj","app":"https://github.com/sotayamashita/tmp-reproduce-ios-simulator-issue/blob/master/KickDebug.app.zip?raw=true"}}
+2021-05-11 13:01:09:687 [HTTP] <-- POST /wd/hub/session 200 29787 ms - 676
+2021-05-11 13:01:09:687 [HTTP] 
+2021-05-11 13:01:09:758 [HTTP] --> POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element
+2021-05-11 13:01:09:758 [HTTP] {"using":"xpath","value":"//XCUIElementTypeButton[@name=\"Log in\"]"}
+2021-05-11 13:01:09:766 [W3C (f1852752)] Calling AppiumDriver.findElement() with args: ["xpath","//XCUIElementTypeButton[@name=\"Log in\"]","f1852752-396c-4c1a-a1ea-a177611eb1c1"]
+2021-05-11 13:01:09:767 [XCUITest] Executing command 'findElement'
+2021-05-11 13:01:09:768 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-05-11 13:01:09:769 [BaseDriver] Waiting up to 0 ms for condition
+2021-05-11 13:01:09:774 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-05-11 13:01:09:775 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/C548F222-2D69-4C56-A455-6CE1E0E71863/element] with body: {"using":"xpath","value":"//XCUIElementTypeButton[@name=\"Log in\"]"}
+2021-05-11 13:01:10:839 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"0F000000-0000-0000-1F1D-000000000000","element-6066-11e4-a52e-4f735466cecf":"0F000000-0000-0000-1F1D-000000000000"},"sessionId":"C548F222-2D69-4C56-A455-6CE1E0E71863"}
+2021-05-11 13:01:10:841 [W3C (f1852752)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"0F000000-0000-0000-1F1D-000000000000","ELEMENT":"0F000000-0000-0000-1F1D-000000000000"}
+2021-05-11 13:01:10:843 [HTTP] <-- POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element 200 1085 ms - 137
+2021-05-11 13:01:10:843 [HTTP] 
+2021-05-11 13:01:10:870 [HTTP] --> POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element/0F000000-0000-0000-1F1D-000000000000/click
+2021-05-11 13:01:10:871 [HTTP] {}
+2021-05-11 13:01:10:879 [W3C (f1852752)] Driver proxy active, passing request on via HTTP proxy
+2021-05-11 13:01:10:880 [XCUITest] Executing command 'proxyReqRes'
+2021-05-11 13:01:10:882 [WD Proxy] Matched '/wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element/0F000000-0000-0000-1F1D-000000000000/click' to command name 'click'
+2021-05-11 13:01:10:883 [WD Proxy] Proxying [POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element/0F000000-0000-0000-1F1D-000000000000/click] to [POST http://127.0.0.1:8100/session/C548F222-2D69-4C56-A455-6CE1E0E71863/element/0F000000-0000-0000-1F1D-000000000000/click] with body: {}
+2021-05-11 13:01:11:268 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"C548F222-2D69-4C56-A455-6CE1E0E71863"}
+2021-05-11 13:01:11:269 [WD Proxy] Replacing sessionId C548F222-2D69-4C56-A455-6CE1E0E71863 with f1852752-396c-4c1a-a1ea-a177611eb1c1
+2021-05-11 13:01:11:275 [HTTP] <-- POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element/0F000000-0000-0000-1F1D-000000000000/click 200 400 ms - 65
+2021-05-11 13:01:11:276 [HTTP] 
+2021-05-11 13:01:11:280 [HTTP] --> GET /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/screenshot
+2021-05-11 13:01:11:280 [HTTP] {}
+2021-05-11 13:01:11:282 [W3C (f1852752)] Calling AppiumDriver.getScreenshot() with args: ["f1852752-396c-4c1a-a1ea-a177611eb1c1"]
+2021-05-11 13:01:11:282 [XCUITest] Executing command 'getScreenshot'
+2021-05-11 13:01:11:282 [XCUITest] Taking screenshot with WDA
+2021-05-11 13:01:11:283 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2021-05-11 13:01:11:283 [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:8100/session/C548F222-2D69-4C56-A455-6CE1E0E71863/screenshot] with no body
+2021-05-11 13:01:11:585 [WD Proxy] Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAABJIAAAnkCAYAAABWQUsDAAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAAEkqADAAQAAAABAAAJ5AAAAADL9lqOAAAAHGlET1QAAAACAAAAAAAA\r\nBPIAAAAoAAAE8gAABPIAAO2MLfG9qAAAQABJREFUeAHsnQecXUXd/gMhBBI6ggUp\r\nImBDEFFR1BexoOhref3bKGkQQic9QQJEQBBEFGlKb6EpvQtIl95rkBBCCRAghJJe\r\nmP88c/NcZk/ubm6ye3fv3v0ePiczZ87Mb37zPYU7z87M6RbYIAABCEAAAhCAAAQg\r\nAAEIQAACEIAABCBQBYFuVeQhCwQgAAEIQAACEIAABCAAAQhAAAIQgAAEAkISNwEE\r\nIAABCEAAAhCAAAQgAAEIQAACEIBAVQQQkqrCRCYIQAACEIAABCAAAQhAAAIQgAAE\r\nIAABhCTuAQhAAAIQgAAEIAABCEAAAhCAAAQgAIGqCCAkVYWJTBCAAAQgAAEIQAAC\r\nEIAABCAAAQhAAAIISdwDEIAABCAAAQhAAAIQgAAEIAABCEAAAlURQEiqChOZIAAB\r\nCEAAAhCAAAQgAAEIQAACEIAABBCSuAcgAAEIQAACEIAABCAAAQhAAAIQgAAEqiKA\r\nkFQVJjJBAAIQgAAEIAABCEAAAhCAAAQgAAEIICRxD0AAAhCAAAQgAAEIQAACEIAA\r\nBCAAAQhURQAhqSpMZIIABCAAAQhAAAIQgAAEIAABCEAAAhBASOIegAAEIAABCEAA\r\nAhCAAAQgAAEIQAACEKiKAEJSVZjIBAEIQAACEIAABCAAAQhAAAIQgAAEIICQxD0A\r\nAQhAAAIQgAAEIAABCEAAAhCAAAQgUBUBhKSqMJEJAhCAAAQgAAEIQAACEIA...
+2021-05-11 13:01:11:587 [W3C (f1852752)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABJIAAAnkCAYAAABWQUsDAAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAAEkqADAAQAAAABAAAJ5AAAAADL9lqOAAAAHGlET1QAAAACAAAAAAAA\r\nBPIAAAAoAAAE8gAABPIAAO2MLfG9qAAAQABJREFUeAHsnQecXUXd/gMhBBI6ggUp\r\nImBDEFFR1BexoOhref3bKGkQQic9QQJEQBBEFGlKb6EpvQtIl95rkBBCCRAghJJe\r\nmP88c/NcZk/ubm6ye3fv3v0ePiczZ87Mb37zPYU7z87M6RbYIAABCEAAAhCAAAQg\r\nAAEIQAACEIAABCBQBYFuVeQhCwQgAAEIQAACEIAABCAAAQhAAAIQgAAEAkISNwEE\r\nIAABCEAAAhCAAAQgAAEIQAACEIBAVQQQkqrCRCYIQAACEIAABCAAAQhAAAIQgAAE\r\nIAABhCTuAQhAAAIQgAAEIAABCEAAAhCAAAQgAIGqCCAkVYWJTBCAAAQgAAEIQAAC\r\nEIAABCAAAQhAAAIISdwDEIAABCAAAQhAAAIQgAAEIAABCEAAAlURQEiqChOZIAAB\r\nCEAAAhCAAAQgAAEIQAACEIAABBCSuAcgAAEIQAACEIAABCAAAQhAAAIQgAAEqiKA\r\nkFQVJjJBAAIQgAAEIAABCEAAAhCAAAQgAAEIICRxD0AAAhCAAAQgAAEIQAACEIAA\r\nBCAAAQhURQAhqSpMZIIABCAAAQhAAAIQgAAEIAABCEAAAhBASOIegAAEIAABCEAA\r\nAhCAAAQgAAEIQAACEKiKAEJSVZjIBAEIQAACEIAABCAAAQhAAAIQgAAEIICQxD0A\r\nAQhAAAIQgAAEIAABCEAAAhCAAAQgUBUBhKSqMJEJAhCAAAQgAAEIQAACEIAABCAA\r\n...
+2021-05-11 13:01:11:592 [HTTP] <-- GET /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/screenshot 200 311 ms - 222828
+2021-05-11 13:01:11:593 [HTTP] 
+2021-05-11 13:01:11:608 [HTTP] --> POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element
+2021-05-11 13:01:11:608 [HTTP] {"using":"xpath","value":"//XCUIElementTypeStaticText[@name=\"Log in\"]"}
+2021-05-11 13:01:11:609 [W3C (f1852752)] Calling AppiumDriver.findElement() with args: ["xpath","//XCUIElementTypeStaticText[@name=\"Log in\"]","f1852752-396c-4c1a-a1ea-a177611eb1c1"]
+2021-05-11 13:01:11:609 [XCUITest] Executing command 'findElement'
+2021-05-11 13:01:11:610 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-05-11 13:01:11:610 [BaseDriver] Waiting up to 0 ms for condition
+2021-05-11 13:01:11:612 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-05-11 13:01:11:613 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/C548F222-2D69-4C56-A455-6CE1E0E71863/element] with body: {"using":"xpath","value":"//XCUIElementTypeStaticText[@name=\"Log in\"]"}
+2021-05-11 13:01:13:422 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4D000000-0000-0000-1F1D-000000000000","element-6066-11e4-a52e-4f735466cecf":"4D000000-0000-0000-1F1D-000000000000"},"sessionId":"C548F222-2D69-4C56-A455-6CE1E0E71863"}
+2021-05-11 13:01:13:422 [W3C (f1852752)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4D000000-0000-0000-1F1D-000000000000","ELEMENT":"4D000000-0000-0000-1F1D-000000000000"}
+2021-05-11 13:01:13:424 [HTTP] <-- POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element 200 1815 ms - 137
+2021-05-11 13:01:13:424 [HTTP] 
+2021-05-11 13:01:13:430 [HTTP] --> POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element/4D000000-0000-0000-1F1D-000000000000/click
+2021-05-11 13:01:13:430 [HTTP] {}
+2021-05-11 13:01:13:433 [W3C (f1852752)] Driver proxy active, passing request on via HTTP proxy
+2021-05-11 13:01:13:433 [XCUITest] Executing command 'proxyReqRes'
+2021-05-11 13:01:13:435 [WD Proxy] Matched '/wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element/4D000000-0000-0000-1F1D-000000000000/click' to command name 'click'
+2021-05-11 13:01:13:435 [WD Proxy] Proxying [POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element/4D000000-0000-0000-1F1D-000000000000/click] to [POST http://127.0.0.1:8100/session/C548F222-2D69-4C56-A455-6CE1E0E71863/element/4D000000-0000-0000-1F1D-000000000000/click] with body: {}
+2021-05-11 13:01:13:748 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"C548F222-2D69-4C56-A455-6CE1E0E71863"}
+2021-05-11 13:01:13:749 [WD Proxy] Replacing sessionId C548F222-2D69-4C56-A455-6CE1E0E71863 with f1852752-396c-4c1a-a1ea-a177611eb1c1
+2021-05-11 13:01:13:750 [HTTP] <-- POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element/4D000000-0000-0000-1F1D-000000000000/click 200 320 ms - 65
+2021-05-11 13:01:13:751 [HTTP] 
+2021-05-11 13:01:13:757 [HTTP] --> GET /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/screenshot
+2021-05-11 13:01:13:758 [HTTP] {}
+2021-05-11 13:01:13:758 [W3C (f1852752)] Calling AppiumDriver.getScreenshot() with args: ["f1852752-396c-4c1a-a1ea-a177611eb1c1"]
+2021-05-11 13:01:13:759 [XCUITest] Executing command 'getScreenshot'
+2021-05-11 13:01:13:759 [XCUITest] Taking screenshot with WDA
+2021-05-11 13:01:13:760 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2021-05-11 13:01:13:760 [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:8100/session/C548F222-2D69-4C56-A455-6CE1E0E71863/screenshot] with no body
+2021-05-11 13:01:14:082 [WD Proxy] Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAABJIAAAnkCAYAAABWQUsDAAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAAEkqADAAQAAAABAAAJ5AAAAADL9lqOAAAAHGlET1QAAAACAAAAAAAA\r\nBPIAAAAoAAAE8gAABPIABo1M1+VoDQAAQABJREFUeAHsvXf8bUV1Nv69HbCDoEjE\r\nWBI1UWxgN2osMcYkJq+JRmOMr3l/iUnsgoKggtIv/dJRpKkUUUFEUBBRekdABITb\r\ne+fey720+a1nnf2cO3fYe599env+2J+ZPbNmzZqZZ+ac9ZyZORMLNq0OekarDxY+\r\nvCbwGaWx7WWbelnXKI1RN9uiMRmtdapbWCFOEHarDukdPiwSFxq74Rs7jZnGTBgQ\r\nBoQBYaDfGOD3CH2/XB3mb1zlz0S/B0X1a2GoigFO4Kry7cj1sq527BynshoTrRVV\r\n8E6cIKwiL5nxwBVxofEej/HWOGuchQFhQBgQBoSB7mBARJJ2Yg2dk9VLR6CXdWmR\r\nq7bIaUyq9ZPwpH4SBp6IAa0fT+wT4UR9IgwIA8KAMCAMCAPNYqBOJPHLVVHYrGLJ\r\n9xaM8biNet+zrb1oZy/r6kV7RqEOjUlv15ZRwIzaIMwIA8KAMDCYGOBnelGocRvM\r\ncdO4aFzGAQPxujQO7W22jSKSRmRH0jgBnW1tFuytyPeyrlbsG8cyGhN9eRlH3KvN\r\nwr0wIAyMIgb4mV4UjmKb1SbNZWFgODAQr0sasyeOWZ1IUuc8sXPUJ4PZJ5zUvRif\r\nXtbVi/aMQh0ak8Gcl6OALbVhNLGFNaNobMvyisoofTRxonHVuAoDwoAwIAwIA9Ux\r\nICJpRHYkjRPoe0kk9LKucRrDdtqqMam+wLfTz8NeljhBOOxtkf3tYb4MA2V...
+2021-05-11 13:01:14:090 [W3C (f1852752)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABJIAAAnkCAYAAABWQUsDAAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAAEkqADAAQAAAABAAAJ5AAAAADL9lqOAAAAHGlET1QAAAACAAAAAAAA\r\nBPIAAAAoAAAE8gAABPIABo1M1+VoDQAAQABJREFUeAHsvXf8bUV1Nv69HbCDoEjE\r\nWBI1UWxgN2osMcYkJq+JRmOMr3l/iUnsgoKggtIv/dJRpKkUUUFEUBBRekdABITb\r\ne+fey720+a1nnf2cO3fYe599env+2J+ZPbNmzZqZZ+ac9ZyZORMLNq0OekarDxY+\r\nvCbwGaWx7WWbelnXKI1RN9uiMRmtdapbWCFOEHarDukdPiwSFxq74Rs7jZnGTBgQ\r\nBoQBYaDfGOD3CH2/XB3mb1zlz0S/B0X1a2GoigFO4Kry7cj1sq527BynshoTrRVV\r\n8E6cIKwiL5nxwBVxofEej/HWOGuchQFhQBgQBoSB7mBARJJ2Yg2dk9VLR6CXdWmR\r\nq7bIaUyq9ZPwpH4SBp6IAa0fT+wT4UR9IgwIA8KAMCAMCAPNYqBOJPHLVVHYrGLJ\r\n9xaM8biNet+zrb1oZy/r6kV7RqEOjUlv15ZRwIzaIMwIA8KAMDCYGOBnelGocRvM\r\ncdO4aFzGAQPxujQO7W22jSKSRmRH0jgBnW1tFuytyPeyrlbsG8cyGhN9eRlH3KvN\r\nwr0wIAyMIgb4mV4UjmKb1SbNZWFgODAQr0sasyeOWZ1IUuc8sXPUJ4PZJ5zUvRif\r\nXtbVi/aMQh0ak8Gcl6OALbVhNLGFNaNobMvyisoofTRxonHVuAoDwoAwIAwIA9Ux\r\nICJpRHYkjRPoe0kk9LKucRrDdtqqMam+wLfTz8NeljhBOOxtkf3tYb4MA2V56vf2\r\n...
+2021-05-11 13:01:14:104 [HTTP] <-- GET /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/screenshot 200 344 ms - 1125620
+2021-05-11 13:01:14:105 [HTTP] 
+2021-05-11 13:01:14:124 [HTTP] --> POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element
+2021-05-11 13:01:14:125 [HTTP] {"using":"xpath","value":"//XCUIElementTypeApplication[@name=\"KickDebug\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeTextField"}
+2021-05-11 13:01:14:126 [W3C (f1852752)] Calling AppiumDriver.findElement() with args: ["xpath","//XCUIElementTypeApplication[@name=\"KickDebug\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeTextField","f1852752-396c-4c1a-a1ea-a177611eb1c1"]
+2021-05-11 13:01:14:126 [XCUITest] Executing command 'findElement'
+2021-05-11 13:01:14:127 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2021-05-11 13:01:14:127 [BaseDriver] Waiting up to 0 ms for condition
+2021-05-11 13:01:14:128 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-05-11 13:01:14:128 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/C548F222-2D69-4C56-A455-6CE1E0E71863/element] with body: {"using":"xpath","value":"//XCUIElementTypeApplication[@name=\"KickDebug\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeTextField"}
+2021-05-11 13:01:17:905 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"70000000-0000-0000-1F1D-000000000000","element-6066-11e4-a52e-4f735466cecf":"70000000-0000-0000-1F1D-000000000000"},"sessionId":"C548F222-2D69-4C56-A455-6CE1E0E71863"}
+2021-05-11 13:01:17:905 [W3C (f1852752)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"70000000-0000-0000-1F1D-000000000000","ELEMENT":"70000000-0000-0000-1F1D-000000000000"}
+2021-05-11 13:01:17:907 [HTTP] <-- POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element 200 3783 ms - 137
+2021-05-11 13:01:17:907 [HTTP] 
+2021-05-11 13:01:17:915 [HTTP] --> POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element/70000000-0000-0000-1F1D-000000000000/click
+2021-05-11 13:01:17:915 [HTTP] {}
+2021-05-11 13:01:17:916 [W3C (f1852752)] Driver proxy active, passing request on via HTTP proxy
+2021-05-11 13:01:17:916 [XCUITest] Executing command 'proxyReqRes'
+2021-05-11 13:01:17:917 [WD Proxy] Matched '/wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element/70000000-0000-0000-1F1D-000000000000/click' to command name 'click'
+2021-05-11 13:01:17:918 [WD Proxy] Proxying [POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element/70000000-0000-0000-1F1D-000000000000/click] to [POST http://127.0.0.1:8100/session/C548F222-2D69-4C56-A455-6CE1E0E71863/element/70000000-0000-0000-1F1D-000000000000/click] with body: {}
+2021-05-11 13:01:18:658 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"C548F222-2D69-4C56-A455-6CE1E0E71863"}
+2021-05-11 13:01:18:659 [WD Proxy] Replacing sessionId C548F222-2D69-4C56-A455-6CE1E0E71863 with f1852752-396c-4c1a-a1ea-a177611eb1c1
+2021-05-11 13:01:18:661 [HTTP] <-- POST /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/element/70000000-0000-0000-1F1D-000000000000/click 200 745 ms - 65
+2021-05-11 13:01:18:661 [HTTP] 
+2021-05-11 13:01:18:668 [HTTP] --> GET /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/screenshot
+2021-05-11 13:01:18:669 [HTTP] {}
+2021-05-11 13:01:18:669 [W3C (f1852752)] Calling AppiumDriver.getScreenshot() with args: ["f1852752-396c-4c1a-a1ea-a177611eb1c1"]
+2021-05-11 13:01:18:670 [XCUITest] Executing command 'getScreenshot'
+2021-05-11 13:01:18:670 [XCUITest] Taking screenshot with WDA
+2021-05-11 13:01:18:672 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2021-05-11 13:01:18:673 [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:8100/session/C548F222-2D69-4C56-A455-6CE1E0E71863/screenshot] with no body
+2021-05-11 13:01:18:968 [WD Proxy] Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAABJIAAAnkCAYAAABWQUsDAAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAAEkqADAAQAAAABAAAJ5AAAAADL9lqOAAAAHGlET1QAAAACAAAAAAAA\r\nBPIAAAAoAAAE8gAABPIAAg71cv8AcQAAQABJREFUeAHsnQfcXEW9/kMqKfRQlCIi\r\nYAcUKbY/IhYscL3cq1cI6QkkQHqjV6UoIEVEEEGUqtJF0esFBZQuoiggJSCE3kt6\r\nMv95Zvc5mT3ZwEved/O+2f3OJ+edcmZ+M/M9Z092np2Z0y3gIAABCEAAAhCAAAQg\r\nAAEIQAACEIAABCDQBgLd2pCHLBCAAAQgAAEIQAACEIAABCAAAQhAAAIQCAhJ3AQQ\r\ngAAEIAABCEAAAhCAAAQgAAEIQAACbSKAkNQmTGSCAAQgAAEIQAACEIAABCAAAQhA\r\nAAIQQEjiHoAABCAAAQhAAAIQgAAEIAABCEAAAhBoEwGEpDZhIhMEIAABCEAAAhCA\r\nAAQgAAEIQAACEIAAQhL3AAQgAAEIQAACEIAABCAAAQhAAAIQgECbCCAktQkTmSAA\r\nAQhAAAIQgAAEIAABCEAAAhCAAAQQkrgHIAABCEAAAhCAAAQgAAEIQAACEIAABNpE\r\nACGpTZjIBAEIQAACEIAABCAAAQhAAAIQgAAEIICQxD0AAQhAAAIQgAAEIAABCEAA\r\nAhCAAAQg0CYCCEltwkQmCEAAAhCAAAQgAAEIQAACEIAABCAAAYQk7gEIQAACEIAA\r\nBCAAAQhAAAIQgAAEIACBNhFASGoTJjJBAAIQgAAEIAABCEAAAhCAAAQgAAEIICRx\r\nD0AAAhCAAAQgAAEIQAACEIAABCAAAQi0iQBCUpswkQkCEIAABCAAAQhAAAI...
+2021-05-11 13:01:18:972 [W3C (f1852752)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABJIAAAnkCAYAAABWQUsDAAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAAEkqADAAQAAAABAAAJ5AAAAADL9lqOAAAAHGlET1QAAAACAAAAAAAA\r\nBPIAAAAoAAAE8gAABPIAAg71cv8AcQAAQABJREFUeAHsnQfcXEW9/kMqKfRQlCIi\r\nYAcUKbY/IhYscL3cq1cI6QkkQHqjV6UoIEVEEEGUqtJF0esFBZQuoiggJSCE3kt6\r\nMv95Zvc5mT3ZwEved/O+2f3OJ+edcmZ+M/M9Z092np2Z0y3gIAABCEAAAhCAAAQg\r\nAAEIQAACEIAABCDQBgLd2pCHLBCAAAQgAAEIQAACEIAABCAAAQhAAAIQCAhJ3AQQ\r\ngAAEIAABCEAAAhCAAAQgAAEIQAACbSKAkNQmTGSCAAQgAAEIQAACEIAABCAAAQhA\r\nAAIQQEjiHoAABCAAAQhAAAIQgAAEIAABCEAAAhBoEwGEpDZhIhMEIAABCEAAAhCA\r\nAAQgAAEIQAACEIAAQhL3AAQgAAEIQAACEIAABCAAAQhAAAIQgECbCCAktQkTmSAA\r\nAQhAAAIQgAAEIAABCEAAAhCAAAQQkrgHIAABCEAAAhCAAAQgAAEIQAACEIAABNpE\r\nACGpTZjIBAEIQAACEIAABCAAAQhAAAIQgAAEIICQxD0AAQhAAAIQgAAEIAABCEAA\r\nAhCAAAQg0CYCCEltwkQmCEAAAhCAAAQgAAEIQAACEIAABCAAAYQk7gEIQAACEIAA\r\nBCAAAQhAAAIQgAAEIACBNhFASGoTJjJBAAIQgAAEIAABCEAAAhCAAAQgAAEIICRx\r\nD0AAAhCAAAQgAAEIQAACEIAABCAAAQi0iQBCUpswkQkCEIAABCAAAQhAAAIQgAAE\r\n...
+2021-05-11 13:01:18:979 [HTTP] <-- GET /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1/screenshot 200 309 ms - 445740
+2021-05-11 13:01:18:979 [HTTP] 
+2021-05-11 13:01:18:993 [HTTP] --> DELETE /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1
+2021-05-11 13:01:18:994 [HTTP] {}
+2021-05-11 13:01:18:994 [W3C (f1852752)] Calling AppiumDriver.deleteSession() with args: ["f1852752-396c-4c1a-a1ea-a177611eb1c1"]
+2021-05-11 13:01:18:995 [BaseDriver] Event 'quitSessionRequested' logged at 1620738078995 (06:01:18 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:01:18:997 [Appium] Removing session f1852752-396c-4c1a-a1ea-a177611eb1c1 from our master session list
+2021-05-11 13:01:18:999 [WD Proxy] Matched '/session/f1852752-396c-4c1a-a1ea-a177611eb1c1' to command name 'deleteSession'
+2021-05-11 13:01:19:000 [WD Proxy] Proxying [DELETE /session/f1852752-396c-4c1a-a1ea-a177611eb1c1] to [DELETE http://127.0.0.1:8100/session/C548F222-2D69-4C56-A455-6CE1E0E71863] with no body
+2021-05-11 13:01:20:060 [WD Proxy] Got response with status 200: {"value":null,"sessionId":null}
+2021-05-11 13:01:20:061 [DevCon Factory] Releasing connections for 375471BA-0237-4BAE-9FDD-BDD688E0D771 device on any port number
+2021-05-11 13:01:20:061 [DevCon Factory] Found cached connections to release: ["375471BA-0237-4BAE-9FDD-BDD688E0D771:8100"]
+2021-05-11 13:01:20:062 [DevCon Factory] Cached connections count: 0
+2021-05-11 13:01:20:062 [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2021-05-11 13:01:20:063 [IOSSimulatorLog] Stopping iOS log capture
+2021-05-11 13:01:20:079 [BaseDriver] Event 'quitSessionFinished' logged at 1620738080079 (06:01:20 GMT-0700 (Pacific Daylight Time))
+2021-05-11 13:01:20:080 [W3C (f1852752)] Received response: null
+2021-05-11 13:01:20:080 [W3C (f1852752)] But deleting session, so not returning
+2021-05-11 13:01:20:080 [W3C (f1852752)] Responding to client with driver.deleteSession() result: null
+2021-05-11 13:01:20:081 [HTTP] <-- DELETE /wd/hub/session/f1852752-396c-4c1a-a1ea-a177611eb1c1 200 1089 ms - 14
+2021-05-11 13:01:20:082 [HTTP] 
+2021-05-11 13:06:27:306 [Appium] Received SIGINT - shutting down
