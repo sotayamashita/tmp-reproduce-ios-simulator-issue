@@ -9,7 +9,7 @@ const { remote } = require("webdriverio");
             "appium:automationName": "XCUITest",
             "appium:platformVersion": "14.5",
             "appium:deviceName": "iPhone Simulator",
-            "appium:app": "./KickDebug.app.zip",
+            "appium:app": "https://github.com/sotayamashita/tmp-reproduce-ios-simulator-issue/blob/master/KickDebug.app.zip?raw=true",
         }
     });
 
