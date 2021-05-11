@@ -54,3 +54,7 @@ Can see the keyboard correctly in the simulator.
 (Paste any relevant logs - please use code blocks (\`\`\`) to format console output,
 logs, and code as it's very hard to read otherwise.)
 
+<img src="https://github.com/sotayamashita/tmp-reproduce-ios-simulator-issue/blob/master/log/3-screenshot.png?raw=true" width="300" />
+
+https://github.com/sotayamashita/tmp-reproduce-ios-simulator-issue/blob/master/log/3-screenshot.png
+
